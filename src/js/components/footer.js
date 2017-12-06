@@ -1,14 +1,18 @@
 import React from 'react';
-//var footerCss  =  require("../../css/footer.css");
+// var footerCss  =  require("../../css/footer.css");
 export default class ComponentFooter extends React.Component {
   render() {
     var footerConvertStyle = {
       "miniFooter": {
         "backgroundColor": "#333333",
-        "color": "#ffffff",
+        "color": "#fff" ,
         "paddingLeft": "20px",
         "paddingTop": "3px",
-        "paddingBottom": "3px"
+        "paddingBottom": "3px",
+        "position": "fixed",
+        "bottom": "0",
+        "width": "100%",
+        "height": "50px"
       },
       "miniFooter_h1": {
         "fontSize": "15px"

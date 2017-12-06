@@ -15,15 +15,6 @@ class App extends Component {
   }
 
   render() {
-    /*
-    var component;
-    if (用户已登录) {
-      component = <ComponentLoginedHeader/>
-    }
-    else{
-      component = <ComponentHeader/>
-    }
-    */
     return (
       <div>
         <ComponentHeader/>
